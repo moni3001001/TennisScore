@@ -8,9 +8,9 @@ public void IncrementGame(boolean playerA)
  if((gameA>=6)||(gameB>=6))
  {
   if((gameA>gameB)&&(gameA-gameB==2))
-    IncrementSet(true);
+    IncrementMatch(true);
   if((gameB>gameA)&&(gameB-gameA==2))
-    IncrementSet(false);
+    IncrementMatch(false);
   if(gameA==gameB)
     {gameA = 6; gameB = 6;}
     
